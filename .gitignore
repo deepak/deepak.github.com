@@ -1,5 +1,8 @@
 # -*- mode: gitignore; -*-
 
+### Middleman - "static websites. nuff said" http://middlemanapp.com
+/build
+
 ### Emacs - "the kitchen sink operating system" http://www.gnu.org/software/emacs/
 *~
 \#*\#
@@ -29,3 +32,9 @@
 # Pessimize gem
 Gemfile.backup
 Gemfile.lock.backup
+
+# Ignore bundler config
+/.bundle
+
+### OSX - "the computers are so shiny"
+.DS_Store
