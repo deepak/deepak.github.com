@@ -1,0 +1,31 @@
+# -*- mode: gitignore; -*-
+
+### Emacs - "the kitchen sink operating system" http://www.gnu.org/software/emacs/
+*~
+\#*\#
+.\#*
+
+# Org-mode
+.org-id-locations
+*_archive
+
+# flymake-mode
+*_flymake.*
+
+
+
+### Sass - "Sassy CSS" http://sass-lang.com/
+*.sass-cache
+*.sassc
+
+
+
+### Ruby - "The Language God wished he had written the world in" https://www.ruby-lang.org/en/
+*.rbc
+
+
+
+### Gems - "makes life worth living. cannot live without my rubygems"
+# Pessimize gem
+Gemfile.backup
+Gemfile.lock.backup
