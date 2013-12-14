@@ -38,6 +38,9 @@
 # Reload the browser automatically whenever files change
 activate :livereload
 
+# asset management
+activate :sprockets
+
 # Methods defined in the helpers block are available in templates
 # helpers do
 #   def some_helper
