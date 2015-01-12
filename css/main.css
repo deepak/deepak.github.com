@@ -61,19 +61,36 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body {
+  font-size: 1em;
+  line-height: 1.4em;
+  word-spacing: 0.1em;
+}
 
+.header-container {
+  text-align: center;
+}
 
+.header-nav ul li {
+  display: inline;
+  padding: 2px 5px;
+}
 
+.heading {
+  font-size: 1.5em;
+  font-weight: bold;
+}
 
+.main-container {
+  padding-top: 3%;
+  text-align: center;
+}
 
-
-
-
-
-
-
-
-
+.intro {
+  width: 45%;
+  text-align: left;
+  display: inline-block;
+}
 
 /* ==========================================================================
    Media Queries
