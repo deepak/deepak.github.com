@@ -3,13 +3,10 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
-
-# THANKS
-
-    <name>
+    Chef: Deepak Kannan
+    Twitter: @_dkannan
+    From: Bangalore, India
 
 # TECHNOLOGY COLOPHON
 
-    HTML5, CSS3
-    jQuery, Modernizr
+    html5-boilerplate for the sane and well documented scaffold
