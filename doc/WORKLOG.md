@@ -1,3 +1,5 @@
+## Captain's Logbook
+
 ### Monday, Jan 12, 2015
 
 - create project using classic html5-boilerplate.
@@ -16,3 +18,6 @@
 - cannot see changed favicon. unless i change port
   how long does chrome cache the favicon ?
 - spent a stupid amount of time writing humans.txt
+- add intro
+- looks very basic. no styling
+- git sha: e1553907e41d56393343a9448e1055e2af944e76
