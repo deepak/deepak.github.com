@@ -33,3 +33,13 @@
   configuring on namecheap as per
   http://davidensinger.com/2013/03/setting-the-dns-for-github-pages-on-namecheap/
   and https://help.github.com/articles/tips-for-configuring-an-a-record-with-your-dns-provider/
+
+### Wednesday, Jan 14, 2015
+
+- forgot to change google analytics code. did that
+- html5 boilersplace modifies the stock ga snippet
+  - removes redundant code, for savings in bytes. explained well at:
+    https://mathiasbynens.be/notes/async-analytics-snippet#optimizations
+    https://mathiasbynens.be/notes/async-analytics-snippet#universal-analytics
+  - the change the function arguments to something cooler :-)
+    general technique is https://www.npmjs.com/package/isogram
