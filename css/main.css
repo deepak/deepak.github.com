@@ -62,9 +62,13 @@ textarea {
    ========================================================================== */
 
 body {
-  font-size: 1em;
+  font-size: 1.45em;
   line-height: 1.4em;
   word-spacing: 0.1em;
+  background-color: #f1efd8;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .header-container {
@@ -90,6 +94,19 @@ body {
   width: 45%;
   text-align: left;
   display: inline-block;
+}
+
+p {
+  font-family: 'Archer A', 'Archer B', georgia, serif;
+}
+
+.greeting {
+  font-size: 1.15em;
+}
+
+.rubyist {
+  font-size: 1.1em;
+  color: #b93c2f;
 }
 
 /* ==========================================================================
