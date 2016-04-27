@@ -81,7 +81,7 @@ body {
 }
 
 .heading {
-  font-size: 1.5em;
+  font-size: 0.83em;
   font-weight: bold;
 }
 
@@ -91,7 +91,7 @@ body {
 }
 
 .intro {
-  width: 45%;
+  width: 80%;
   text-align: left;
   display: inline-block;
 }
@@ -101,6 +101,7 @@ p {
 }
 
 .greeting {
+  display: inline;
   font-size: 1.15em;
 }
 
@@ -109,12 +110,45 @@ p {
   color: #b93c2f;
 }
 
+.short-travel-history {
+  display: block;
+}
+
+.long-travel-history {
+  display: none;
+}
+
 /* ==========================================================================
    Media Queries
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
+@media only screen
+and (min-device-width : 768px) {
+  .intro {
+    width: 45%;
+  }
 
+  .heading {
+    font-size: 1.5em;
+  }
+
+  /*
+    Adjacent sibling selector
+    https://developer.mozilla.org/en/docs/Web/CSS/Adjacent_sibling_selectors
+  */
+  .greeting:first-of-type + p {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    display: inline;
+  }
+
+  .short-travel-history {
+    display: none;
+  }
+
+  .long-travel-history {
+    display: block;
+  }
 }
 
 @media print,
